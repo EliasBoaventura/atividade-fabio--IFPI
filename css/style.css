@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(72, 70, 70);
+    opacity: 0.9;
+}
+
+.nav {
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.banda_img {
+    max-width: 50%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sobre_a_banda {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.frase_chorao {
+    width: 50%;
+    display: grid;
+    text-align: center;
+    font-family: 10px;
+    margin: auto;
+    padding: 40px;
+}
+
+.musicas {
+    display: flex;
+    align-items: center;
+}
+
+.listas_musicas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border-right: 1px solid #fff;
+}
+
+ol {
+    font-family: 20px;
+}
+
+.frase_chorao_dois {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-family: 10px;
+}
+
+.clipes {
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    height: 440px;
+    justify-content: space-around;
+}
+
+.video {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0px;
+}
+
+.rodape {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.video_homenagem {
+    width: 1080px;
+    height: 720px;
+    margin: 20px 0px;
+}
+
+#eterno {
+    font-size: 40px;
+}
